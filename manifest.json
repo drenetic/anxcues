@@ -1,26 +1,6 @@
 {
-  "manifest_version": 3,
   "name": "Anxcues",
-  "version": "1.0",
   "description": "Take a moment to focus on your breath, leveraging the powerful but simple relaxation Box Breathing technique.",
-  "action": {
-    "default_icon": {
-    "16": "images/relax_FILL0_wght400_GRAD0_opsz16.png",
-    "32": "images/relax_FILL0_wght400_GRAD0_opsz32.png",
-    "48": "images/relax_FILL0_wght400_GRAD0_opsz48.png",
-    "128": "images/relax_FILL0_wght400_GRAD0_opsz128.png"
-    }
-  },
-  "background": {
-    "service_worker": "background.js"
-  },
-  "permissions": ["activeTab", "scripting"],
-  "commands": {
-    "_execute_action": {
-      "suggested_key": {
-        "default": "Ctrl+B",
-        "mac": "Command+B"
-      }
-    }
-  }
+  "version": "1.0.0",
+  "manifest_version": 3
 }
